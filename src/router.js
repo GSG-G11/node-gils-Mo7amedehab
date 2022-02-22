@@ -1,5 +1,5 @@
-const handelPuplic = require("./handelPuplic");
-const handelPost = require("./handelPost");
+const handelPuplic = require("./publichandling");
+const handelPost = require("./postshandling");
 
 const router = (request, response) => {
   const endpoint = request.url;
